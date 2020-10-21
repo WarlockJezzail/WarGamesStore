@@ -10,7 +10,7 @@ import android.widget.TextView;
 import productos.Warhammer;
 
 public class ofertas_act extends AppCompatActivity {
-
+    Warhammer w= new Warhammer();
     private TextView text;
 
     @Override
@@ -18,12 +18,14 @@ public class ofertas_act extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ofertas_act);
         text=(TextView)findViewById(R.id.tv1);
-        Warhammer w= new Warhammer();
         text.setText("El precio es de "+ w.getW05());
     }
     public void Compra(View view)
     {
+        String str1=Integer.toString(w.getW05());
         Intent i= new Intent(this, caja_act.class);
+        i.putExtra("Nombre","Golpe de la Tormenta");
+        i.putExtra("Valor", str1);
         startActivity(i);
     }
 }
