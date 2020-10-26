@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WarGamesStore</string>
+    <string name="title_activity_maps_act">Map</string>
 </resources>

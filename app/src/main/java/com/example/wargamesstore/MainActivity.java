@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
     public void Login(View view){
-        Intent i= new Intent(this, log_act.class);
+        Intent i= new Intent(this, Entrar_act.class);
         startActivity(i);
     }
     /////////////TERMINO DE INTENTS/////////////////
