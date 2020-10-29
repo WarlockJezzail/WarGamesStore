@@ -20,5 +20,9 @@ public class contacto_act extends AppCompatActivity {
      Intent i =new Intent(this,Maps_act.class);
      startActivity(i);
     }
-
+    public void Video(View view)
+    {
+        Intent i =new Intent(this,Video_act.class);
+        startActivity(i);
+    }
 }

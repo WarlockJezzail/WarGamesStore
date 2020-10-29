@@ -15,10 +15,10 @@ public class Warhammer{
     //Constructores
     public Warhammer()
     {
-    w01 = 5000;
-    w02 = 12990;
-    w03 = 13000;
-    w04 = 40000;
+    w01 = 16990;
+    w02 = 20000;
+    w03 = 19990;
+    w04 = 25000;
     w05 = 32000;
     }
 

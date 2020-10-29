@@ -41,14 +41,31 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="103dp"
+        android:layout_width="95dp"
         android:layout_height="139dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
         android:onClick="Mapa"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.331"
+        app:layout_constraintVertical_bias="0.401"
         app:srcCompat="@drawable/img4" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="60dp"
+        android:onClick="Video"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/iconovideo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
